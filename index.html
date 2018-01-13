@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CodeReview6</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="cR6.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- NanBar -->
+	<div class="pos-f-t">
+  			<div class="collapse" id="navbarToggleExternalContent">
+    			<div class="bg-dark p-4">
+      			<div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Name</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1" id="Title">
+              </div>
+
+             <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Pulisher</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Pulisher" aria-label="Pulisher" aria-describedby="basic-addon1" id="Publisher">
+              </div>
+
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Genre</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Genre" aria-label="Genre" aria-describedby="basic-addon1" id="Genre">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Author</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Author" aria-label="Author" aria-describedby="basic-addon1" id="Author">
+              </div>
+
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Weight</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Weight" aria-label="Weight" aria-describedby="basic-addon1" id="Weight">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon3">Image vanity URL</span>
+                </div>
+                <input type="text" class="form-control" placeholder="https://example.com/users/" id="basic-url" aria-describedby="basic-addon3" id="img">
+              </div>
+              <button type="button" class="btn btn-outline-primary" onclick="mDVD()">DVD</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="mCD()">CD</button>
+                <button type="button" class="btn btn-outline-success" onclick="mBOOK()">BOOK</button>
+                <button type="button" class="btn btn-outline-danger" onclick="mCOMIC()">COMIC</button>
+                <P id="massage"></P>
+
+
+    		</div>
+  		</div>
+  		<nav class="navbar navbar-dark bg-dark">
+    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a href="">Add</a>
+      		<span class="navbar-toggler-icon"></span>
+    		</button>  
+  		</nav>
+	</div>
+	<!-- ROW -->
+	<div class="container">
+
+      <main role="main">
+
+        <!-- Example row of columns -->
+        <div class="container">
+        <p class="font-weight-bold">DVDs</p>
+        <div class="row" id="Dvd">
+        </div>
+        <div class="container">
+        <p class="font-weight-bold">CDs</p>
+        <div class="row" id="CD">
+        </div>
+        <div class="container">
+        <p class="font-weight-bold">Book</p>
+        <div class="row" id="Book">
+        </div>
+        <div class="container">
+        <p class="font-weight-bold">Comics</p>
+        <div class="row" id="Comic">
+        </div>
+      </main>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>Code Review 6</p>
+      </footer>
+
+    </div>
+		 
+		
+
+</div>
+
+
+<script type="text/javascript" src="cR6.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>
